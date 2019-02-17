@@ -75,27 +75,24 @@
                     <section id="intro">
                         <h1>Summary</h1>
                         <hr>
-                        <figure>
-                            <a target="_blank" href="Ploting_graph_of_Cities.png">
-                                <img id="viz-main" src="Ploting_graph_of_Cities.png" alt="Latitude of cities">
                             </a>
                         </figure>
 
                         <section id="summary">
-                            <p>This project utilizes Python, API’s, and JSON traversals to try and answer a fundamental question:
+                            <p>This project uses Python, API’s, and JSON traversals to attempt to answer the question:
                                 “What’s the weather like as we get closer to the equator?”
                             </p>
 
                             <p> Assigning 1,500 random Latitude and Longitudes, I utilized the Python CitiPy library to find
-                                the city closest to the Lat/Lon (dropping all duplicates) to get a listing of over 600 cities.
-                                I utilized OpenWeatherMapAPI to get the weather for the cities (dropping cities with no data)
-                                to create a dataframe of weather information for over 500 cities.
+                                the city closest to the Lat/Lon (dropping all duplicates) by obtaining a list of over 600 cities.
+                                I used OpenWeatherMapAPI to obtain historical weather statistics for the cities (dropping cities with no data)
+                                which was used to create a dataframe.
                             </p>
 
                             <p>
-                                The dataframe is saved to CSV and the data is analyzed across the three climate zones (Tropical Zone, Temperate Zone, and
-                                Polar Zone). To showcase the relationship between latitude and temperature/humidity/cloudiness/wind
-                                speed I utilize MatplotLib scatter plots to view:
+                                I saved the dataframe to CSV files and analyzed the data across the three climate zones: Tropical, Temperate, and
+                                Polar. To showcase the relationship between latitude and temperature, humidity, cloudiness and wind
+                                speed, I utilized MatplotLib to create a visual scatterplot.
                             </p>
 
                             <ul>
